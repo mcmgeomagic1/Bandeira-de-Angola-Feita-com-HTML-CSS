@@ -19,8 +19,8 @@ html,body{
 
 .bandeira{
 	border: 1px solid;
-	width: 60%;
-	height: 70%;
+	width: 900px;
+	height: 500px;
 	position: relative;
 }
 
@@ -92,3 +92,4 @@ html,body{
 	top: 33%;
 	left: 37%;
 }
+
