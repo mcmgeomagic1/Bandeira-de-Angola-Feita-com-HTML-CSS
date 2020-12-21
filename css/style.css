@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.container{
+	background: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bandeira{
+	border: 1px solid;
+	width: 60%;
+	height: 70%;
+	position: relative;
+}
+
+
+.barra-vermelha {
+	height: 50%;
+	background: red;
+
+	
+}
+
+.barra-preta {
+	height: 50%;
+	background: black;
+}
+
+
+.roda {
+	background: none;
+	border:40px solid yellow;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	right: auto;
+	bottom: 50%;
+	width: 35%;
+    height: 45%;
+    border-radius: 100%;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 25% 100%);
+}
+
+.catana {
+	width: 40%;
+	height: 35px;
+	background: yellow;
+	display: flex;
+	padding-left: 2em;
+	align-items: center;
+	position: absolute;
+	top: 61%;
+	border-radius: 10px;
+	left: 25%;
+    transform: rotate(20deg);
+	clip-path: polygon(0 0, 100% 0, 100% 20px, 30px 93%);
+}
+
+.catana .catana-linha {
+	width: 78%;
+	height: 3px;
+	margin-top: -5px;
+	background: black;
+}
+
+.catana .catana-bolinhas{
+	width: 8px;
+	height: 8px;
+	background: black;
+	border-radius: 50%;
+	margin-top: -6px;
+	margin-left: .6em;
+}
+
+.estrela {
+	width: 110px;
+	height: 110px;
+	background: yellow;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	position: absolute;
+	top: 33%;
+	left: 37%;
+}
